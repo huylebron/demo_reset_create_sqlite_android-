@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quan ly sinh vien "
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+       <TextView
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="ho van ten "/>
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="do quoc A "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ngay thang namw sinh "/>
+
+        <EditText
+            android:id="@+id/editYear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="00/0/0000 "/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="school "/>
+
+        <EditText
+            android:id="@+id/editSchool"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="hust"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="gioi tinh  "/>
+
+        <RadioGroup
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radmale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="male"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/radfemale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="female"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+    <TextView
+        android:text="so thich "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/cbSport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="the thao"/>
+    <CheckBox
+        android:id="@+id/cbTravel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="du lich"/>
+    <CheckBox
+        android:id="@+id/cbReadBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="doc sach"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Nhap/hien thi" />
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="nhap lai"/>
+
+
+    ></LinearLayout>
+
+</LinearLayout>
